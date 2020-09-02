@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>About me</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar  navbar-expand-sm fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+        </a>
+        <div class="collapse navbar-collapse" id="Navbar">
+            <div class="nav-item active"> <a class="nav-link smalltxt ud" href="./Imene.html"> Projects</a>
+            </div>
+            <div class="col offset-6"></div> <a class="nav-link smalltxt ud" href="#aboutme"> About</a>
+        </div>
+
+    </nav>
+
+    <div id="videoModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-sm-4 justify-content-center">
+                        <video src="./img/Candy-Crush.mp4" controls="true"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm col-md">
+                    <h2 class="bigtxt">I love coding beautiful and simple things.</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col col-sm col-md">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div>
+                <button id="buttonLogin">GO</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="footer">
+        <br> <br> <br> <br>
+        <div class="row justify-content-center">
+
+
+
+
+            <a class="btn btn-social-icon btn-google socialbtn" href="http://google.com/+"><i
+                    class="fa fa-google-plus"></i></a>
+            <a class="btn btn-socia l-icon btn-linkedin socialbtn" href="http://www.linkedin.com/in/"><i
+                    class="fa fa-linkedin"></i></a>
+            <a class="btn btn-social-icon socialbtn" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+
+        </div>
+
+        <br> <br>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <p>© Imene 2020</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        $("#buttonLogin").click(function(){
+            $("#videoModal").modal('show');
+        });
+        });
+     </script>
+
+
+</body>
+
+</html>
