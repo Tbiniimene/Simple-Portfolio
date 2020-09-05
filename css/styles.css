@@ -100,6 +100,10 @@ body{
     font-family: "europa", sans-serif;
 }
 
+.video{
+    width:100%;
+    height:100%;
+}
 .preview{
     /*position: fixed;
      top:50%;
@@ -312,7 +316,7 @@ figcaption a:hover {
         transition: all 0.4s ease 0s;
         }
 .example_d {
- color: #512DA8 !important;
+ color: white !important;
  text-transform: uppercase;
  padding: 10px;
  background-color: #512DA8;
@@ -320,6 +324,8 @@ figcaption a:hover {
  border-radius: 50px;
  display: inline-block;
  transition: all 0.3s ease 0s;
+ font-family: "europa", sans-serif;
+
 }
 .example_d:hover {
     color: #512DA8 !important;
